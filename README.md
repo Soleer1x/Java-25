@@ -7,7 +7,7 @@
 - A escolha por não utilizar frameworks permite uma compreensão mais profunda de como a JVM (Java Virtual Machine) processa as instruções e como a linguagem se comporta "por baixo do capô".
 
 ## 🛠️ Tecnologias e Conceitos Aplicados
-- Linguagem: Java (JDK 17 ou superior)
+- Linguagem: Java (JDK 25)
 
 - Paradigma: Programação Orientada a Objetos (POO)
 
