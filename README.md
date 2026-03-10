@@ -25,3 +25,7 @@ Manipulação de Strings e Arrays
 
 ## 📌 Por que Java Puro?
 Programar sem o auxílio de abstrações automáticas é um passo essencial para qualquer desenvolvedor que deseja construir uma base sólida. Este repositório serve como um registro da minha evolução técnica, focando na resolução de problemas de forma lógica e estruturada, preparando o terreno para implementações mais complexas em arquiteturas de microsserviços ou sistemas escaláveis no futuro.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="80" height="80"/>
+</p>
