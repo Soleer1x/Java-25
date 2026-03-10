@@ -1,7 +1,7 @@
 # Exercícios de Lógica com Java
 Este repositório contém uma coleção de exercícios práticos desenvolvidos em Java, com o objetivo de consolidar conceitos fundamentais de programação e algoritmos.
 
-## 🚀 Sobre as Application
+## 🚀 Sobre as Applications
 Diferente de projetos que utilizam grandes ecossistemas, esta série de exercícios foi desenvolvida utilizando Java puro (Core), sem a dependência de frameworks (como Spring ou Hibernate). O foco aqui é o domínio da sintaxe, manipulação de dados, estruturas de repetição e condicionais.
 
 A escolha por não utilizar frameworks permite uma compreensão mais profunda de como a JVM (Java Virtual Machine) processa as instruções e como a linguagem se comporta "por baixo do capô".
