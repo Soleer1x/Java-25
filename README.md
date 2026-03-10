@@ -1,4 +1,4 @@
-# Exercícios de Lógica com Java <p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="80" height="80"/></p>
+# Exercícios de Lógica com Java
 Este repositório contém uma coleção de exercícios práticos desenvolvidos em Java, com o objetivo de consolidar conceitos fundamentais de programação e algoritmos.
 
 ## 🚀 Sobre o Projeto
