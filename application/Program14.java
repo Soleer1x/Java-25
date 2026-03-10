@@ -1,6 +1,6 @@
 package application;
 
-import util.Rent;
+import entities.Rent;
 
 import java.util.Locale;
 import java.util.Scanner;
