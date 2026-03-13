@@ -2,7 +2,7 @@
 
 > **"Software is a great combination between artistry and engineering."** — Bill Gates
 
-Este repositório é um laboratório focado no domínio do **Java Core**. Aqui, o objetivo é consolidar a base da Engenharia de Software através de implementações puras, explorando a fundo o comportamento da JVM e os fundamentos da linguagem antes de avançar para abstrações de frameworks.
+Este repositório é um laboratório focado no domínio do **Java Puro**. Aqui, o objetivo é consolidar a base da Engenharia de Software através de implementações puras, explorando a fundo o comportamento da JVM e os fundamentos da linguagem antes de avançar para abstrações de frameworks.
 
 ---
 
