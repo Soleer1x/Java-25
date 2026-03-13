@@ -1,4 +1,4 @@
-# ☕ Java Core: Algoritmos e Lógica de Programação
+# ☕ Java Puro: Algoritmos e Lógica de Programação
 
 > **"Software is a great combination between artistry and engineering."** — Bill Gates
 
