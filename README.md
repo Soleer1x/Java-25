@@ -1,30 +1,46 @@
-# Exercícios de Lógica com Java
-- Este repositório contém uma coleção de exercícios práticos desenvolvidos em Java, com o objetivo de consolidar conceitos fundamentais de programação e algoritmos.
+# ☕ Java Core: Algoritmos e Lógica de Programação
 
-## 🚀 Sobre as Applications
-- Diferente de projetos que utilizam grandes ecossistemas, esta série de exercícios foi desenvolvida utilizando Java puro (Core), sem a dependência de frameworks (como Spring ou Hibernate). O foco aqui é o domínio da sintaxe, manipulação de dados, estruturas de repetição e condicionais.
+> **"Software is a great combination between artistry and engineering."** — Bill Gates
 
-- A escolha por não utilizar frameworks permite uma compreensão mais profunda de como a JVM (Java Virtual Machine) processa as instruções e como a linguagem se comporta "por baixo do capô".
+Este repositório é um laboratório focado no domínio do **Java Core**. Aqui, o objetivo é consolidar a base da Engenharia de Software através de implementações puras, explorando a fundo o comportamento da JVM e os fundamentos da linguagem antes de avançar para abstrações de frameworks.
 
-## 🛠️ Tecnologias e Conceitos Aplicados
-- Linguagem: Java (JDK 25)
+---
 
-- Paradigma: Programação Orientada a Objetos (POO)
+## 🛠️ Stack Técnica & Ferramentas
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JDK](https://img.shields.io/badge/JDK-25-blue?style=for-the-badge)
+![Paradigma](https://img.shields.io/badge/Paradigma-POO-green?style=for-the-badge)
 
-- Conceitos Praticados:
+---
 
-- Entrada e saída de dados (Scanner)
+## 🏛️ Engenharia de Software e Conceitos Aplicados
 
-- Estruturas de decisão (if/else, switch/case)
+Diferente de scripts simples, os exercícios aqui focam em princípios que sustentam sistemas escaláveis:
 
-- Laços de repetição (for, while)
+### 🧩 Orientação a Objetos (POO)
+* **Encapsulamento Estrito:** Proteção de estado via modificadores de acesso e métodos de negócio, evitando o uso de setters que quebrem regras de integridade.
+* **Sobrescrita (Polimorfismo):** Implementação de métodos como `toString()` para padronização de representação de dados.
+* **Composição e Entidades:** Separação clara entre a lógica de aplicação e as regras de negócio.
 
-- Tratamento de exceções
+### 📦 Manipulação de Dados e Memória
+* **Coleções Dinâmicas (`ArrayList`):** Gestão de dados em memória, utilizando interfaces de listas para maior flexibilidade.
+* **Algoritmos de Busca:** Implementação manual de lógica de varredura e filtragem de objetos por identificadores únicos (IDs).
+* **Gestão de Tipos:** Diferenciação entre tipos primitivos e Wrappers, compreendendo a referência de objetos.
 
-- Manipulação de Strings e Arrays
+### 💻 Fluxo e Estrutura
+* **Lógica de Controle:** Domínio de laços de repetição (`for`, `while`) e estruturas condicionais complexas.
+* **I/O Streams:** Manipulação de entrada e saída com `Scanner` e formatação técnica com `printf` e `String.format`.
+* **Tratamento de Exceções:** Prevenção de falhas de runtime e validação de fluxo.
 
-## 📌 Por que Java Puro?
-Programar sem o auxílio de abstrações automáticas é um passo essencial para qualquer desenvolvedor que deseja construir uma base sólida. Este repositório serve como um registro da minha evolução técnica, focando na resolução de problemas de forma lógica e estruturada, preparando o terreno para implementações mais complexas em arquiteturas de microsserviços ou sistemas escaláveis no futuro.
+---
+
+## 📌 Por que o foco em "Java Puro"?
+Como estudante de Engenharia de Software, entendo que frameworks (como Spring ou Hibernate) são ferramentas poderosas, mas perigosas se a base for frágil. Programar "bare metal" (sem abstrações) me permite:
+1. Entender como a **JVM** gerencia referências e memória.
+2. Construir raciocínio lógico independente de ferramentas específicas.
+3. Preparar o terreno para entender **Clean Code** e **Arquitetura de Software** no futuro.
+
+---
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="80" height="80"/>
