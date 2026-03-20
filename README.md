@@ -1,47 +1,167 @@
-# ☕ Java Puro: Algoritmos e Lógica de Programação
+<div align="center">
 
-> **"Software is a great combination between artistry and engineering."** — Bill Gates
+```
+   ██╗ █████╗ ██╗   ██╗ █████╗     ██████╗ ██╗   ██╗██████╗ ███████╗
+   ██║██╔══██╗██║   ██║██╔══██╗    ██╔══██╗██║   ██║██╔══██╗██╔════╝
+   ██║███████║██║   ██║███████║    ██████╔╝██║   ██║██████╔╝█████╗  
+██ ██║██╔══██║╚██╗ ██╔╝██╔══██║    ██╔═══╝ ██║   ██║██╔══██╗██╔══╝  
+╚████╔╝██║  ██║ ╚████╔╝ ██║  ██║    ██║     ╚██████╔╝██║  ██║███████╗
+ ╚═══╝ ╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝    ╚═╝      ╚═════╝ ╚═╝  ╚═╝╚══════╝
+                                                                        
+          ░░░  B A R E   M E T A L   E N G I N E E R I N G  ░░░
+```
 
-Este repositório é um laboratório focado no domínio do **Java Puro**. Aqui, o objetivo é consolidar a base da Engenharia de Software através de implementações puras, explorando a fundo o comportamento da JVM e os fundamentos da linguagem antes de avançar para abstrações de frameworks.
+<br/>
 
----
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="90"/>
 
-## 🛠️ Stack Técnica & Ferramentas
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JDK](https://img.shields.io/badge/JDK-25-blue?style=for-the-badge)
-![Paradigma](https://img.shields.io/badge/Paradigma-POO-green?style=for-the-badge)
+<br/><br/>
 
----
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
+[![JDK 25](https://img.shields.io/badge/JDK_25-000000?style=for-the-badge&logo=openjdk&logoColor=ED8B00)](https://openjdk.org/)
+[![POO](https://img.shields.io/badge/Paradigma-POO-1a1a2e?style=for-the-badge)](https://en.wikipedia.org/wiki/Object-oriented_programming)
+[![Status](https://img.shields.io/badge/Status-Em_Construção-brightgreen?style=for-the-badge)](#)
 
-## 🏛️ Engenharia de Software e Conceitos Aplicados
+<br/>
 
-Diferente de scripts simples, os exercícios aqui focam em princípios que sustentam sistemas escaláveis:
+> *"Before you can build castles, you must understand the stone."*
 
-### 🧩 Orientação a Objetos (POO)
-* **Encapsulamento Estrito:** Proteção de estado via modificadores de acesso e métodos de negócio, evitando o uso de setters que quebrem regras de integridade.
-* **Sobrescrita (Polimorfismo):** Implementação de métodos como `toString()` para padronização de representação de dados.
-* **Composição e Entidades:** Separação clara entre a lógica de aplicação e as regras de negócio.
-
-### 📦 Manipulação de Dados e Memória
-* **Coleções Dinâmicas (`ArrayList`):** Gestão de dados em memória, utilizando interfaces de listas para maior flexibilidade.
-* **Algoritmos de Busca:** Implementação manual de lógica de varredura e filtragem de objetos por identificadores únicos (IDs).
-* **Gestão de Tipos:** Diferenciação entre tipos primitivos e Wrappers, compreendendo a referência de objetos.
-
-### 💻 Fluxo e Estrutura
-* **Lógica de Controle:** Domínio de laços de repetição (`for`, `while`) e estruturas condicionais complexas.
-* **I/O Streams:** Manipulação de entrada e saída com `Scanner` e formatação técnica com `printf` e `String.format`.
-* **Tratamento de Exceções:** Prevenção de falhas de runtime e validação de fluxo.
+</div>
 
 ---
 
-## 📌 Por que o foco em "Java Puro"?
-Como estudante de Engenharia de Software, entendo que frameworks (como Spring ou Hibernate) são ferramentas poderosas, mas perigosas se a base for frágil. Programar "bare metal" (sem abstrações) me permite:
-1. Entender como a **JVM** gerencia referências e memória.
-2. Construir raciocínio lógico independente de ferramentas específicas.
-3. Preparar o terreno para entender **Clean Code** e **Arquitetura de Software** no futuro.
+## ⚡ O Manifesto
+
+Frameworks são atalhos. Atalhos sem mapa levam a becos sem saída.
+
+Este repositório **não usa Spring. Não usa Hibernate. Não usa magia.**
+
+Cada linha aqui é escrita com intenção. Cada classe, cada método, cada laço de repetição — tudo orquestrado à mão, com plena consciência do que a JVM está fazendo por baixo dos panos. Isso não é orgulho de academismo; é **fundação de engenharia**.
+
+```java
+public class Filosofia {
+    public static void main(String[] args) {
+        var princípio = "Domine a fundação. Os frameworks vêm de graça depois.";
+        System.out.printf(">> %s%n", princípio);
+    }
+}
+// OUTPUT: >> Domine a fundação. Os frameworks vêm de graça depois.
+```
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="80" height="80"/>
-</p>
+## 🧠 Pilares Técnicos
+
+### 🔷 Orientação a Objetos de Verdade
+
+Não POO de tutorial. POO de sistema real.
+
+| Conceito | O que é praticado aqui |
+|---|---|
+| **Encapsulamento** | Estado protegido via modificadores. Sem `setters` que violam invariantes de negócio |
+| **Composição** | Entidades que *contêm* outras entidades — `Pedido` contendo `List<Item>` |
+| **Polimorfismo** | `@Override` em `toString()`, `equals()` e comportamentos de domínio |
+| **Abstração** | Separação limpa entre *o que o sistema faz* e *como ele faz* |
+
+### 🔷 Memória e Performance
+
+A JVM não é uma caixa preta. Aqui, ela é um livro aberto.
+
+```
+Stack  ──────►  Primitivos & Referências locais
+                 int x = 42;  /  String ref → Heap
+
+Heap   ──────►  Objetos instanciados via `new`
+                 new Produto("Café", 9.99)
+
+GC     ──────►  Coleta objetos sem mais referências ativas
+                 (controlamos isso ao gerir o escopo)
+```
+
+- `StringBuilder` em laços → evita explosão de objetos `String` imutáveis no Heap
+- `ArrayList<T>` com tipo genérico → segurança em compile-time, sem `ClassCastException` em runtime
+- Scanner com flush de buffer → controle real de fluxo de I/O
+
+### 🔷 Fluxo e Lógica
+
+- Estruturas condicionais complexas e laços aninhados com propósito
+- Algoritmos de busca manual por ID em coleções — o que o `JPA` faz, feito à mão
+- Formatação de saída com `printf` e `String.format` — saídas dignas de sistemas reais
+
+---
+
+## 📂 Estrutura do Laboratório
+
+```
+src/
+└── application/
+    ├── Program26.java   ──  Composição: entidade Autor contendo Livro
+    ├── Program27.java   ──  Listas dinâmicas + StringBuilder
+    ├── Program28.java   ──  Agregação, médias e tamanho de coleções
+    └── ...              ──  novos desafios sendo adicionados
+```
+
+> Cada `Program` é um problema de engenharia resolvido do zero. Sem scaffolding. Sem atalho.
+
+---
+
+## 🗺️ Roadmap
+
+```
+ ✅  Composição de objetos e encapsulamento
+ ✅  Listas dinâmicas com ArrayList e StringBuilder
+ ✅  Cálculos de agregação e média em coleções
+
+ 🔲  Busca binária implementada manualmente em listas de objetos
+ 🔲  Manipulação de arquivos — File, BufferedWriter, FileReader
+ 🔲  Exceções customizadas para regras de negócio
+ 🔲  Interfaces e inversão de dependência
+ 🔲  Streams & Lambdas — a ponte entre o bare metal e o moderno
+ 🔲  Estruturas de dados: pilhas, filas e árvores from scratch
+```
+
+---
+
+## 🔬 Por que isso importa?
+
+Frameworks como Spring e Hibernate são engenharia de primeira linha — construídos por décadas de experiência coletiva. Mas frameworks **não ensinam engenharia**. Eles escondem a engenharia.
+
+Quem entende o `bare metal`:
+
+- **Debugga mais rápido** — sabe onde olhar quando o framework mente
+- **Arquiteta melhor** — entende trade-offs reais de memória e acoplamento  
+- **Aprende frameworks em dias** — porque entende o problema que eles resolvem
+
+> *"If you can't explain it simply, you don't understand it well enough."* — Einstein
+
+---
+
+## 🛠️ Como Executar
+
+**Pré-requisitos:** JDK 25+
+
+```bash
+# Compilar um programa específico
+javac src/application/Program26.java
+
+# Executar
+java -cp src application.Program26
+```
+
+Ou abra direto no **IntelliJ IDEA** / **VS Code** com o plugin Java Extension Pack.
+
+---
+
+<div align="center">
+
+**─────────────────────────────────────**
+
+Desenvolvido com ☕ e obsessão por fundamentos
+
+*"Engenharia de Software é a arte de construir o invisível com precisão cirúrgica."*
+
+**─────────────────────────────────────**
+
+![Visitor Count](https://komarev.com/ghpvc/?username=seu-usuario&color=ED8B00&style=flat-square&label=visitas)
+
+</div>
