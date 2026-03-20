@@ -71,10 +71,10 @@ src/
 │   ├── Program26.java   
 │   ├── Program27.java   
 │   ├── Program28.java
-│   ├── ...
+│   └── ...
 └── entitys/
     │  entitys/enums
-    │            └── enum.java
+    │  └── enum.java
     ├── entity1.java
     ├── entity2.java
     └── entity3.java
