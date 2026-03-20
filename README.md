@@ -97,20 +97,6 @@ src/
 
 ---
 
-## 🔬 Por que isso importa?
-
-Frameworks como Spring e Hibernate são engenharia de primeira linha — construídos por décadas de experiência coletiva. Mas frameworks **não ensinam engenharia**. Eles escondem a engenharia.
-
-Quem entende o `bare metal`:
-
-- **Debugga mais rápido** — sabe onde olhar quando o framework mente
-- **Arquiteta melhor** — entende trade-offs reais de memória e acoplamento  
-- **Aprende frameworks em dias** — porque entende o problema que eles resolvem
-
-> *"If you can't explain it simply, you don't understand it well enough."* — Einstein
-
----
-
 ## 🛠️ Como Executar
 
 **Pré-requisitos:** JDK 25+
