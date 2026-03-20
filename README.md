@@ -63,31 +63,6 @@ Não POO de tutorial. POO de sistema real.
 | **Polimorfismo** | `@Override` em `toString()`, `equals()` e comportamentos de domínio |
 | **Abstração** | Separação limpa entre *o que o sistema faz* e *como ele faz* |
 
-### 🔷 Memória e Performance
-
-A JVM não é uma caixa preta. Aqui, ela é um livro aberto.
-
-```
-Stack  ──────►  Primitivos & Referências locais
-                 int x = 42;  /  String ref → Heap
-
-Heap   ──────►  Objetos instanciados via `new`
-                 new Produto("Café", 9.99)
-
-GC     ──────►  Coleta objetos sem mais referências ativas
-                 (controlamos isso ao gerir o escopo)
-```
-
-- `StringBuilder` em laços → evita explosão de objetos `String` imutáveis no Heap
-- `ArrayList<T>` com tipo genérico → segurança em compile-time, sem `ClassCastException` em runtime
-- Scanner com flush de buffer → controle real de fluxo de I/O
-
-### 🔷 Fluxo e Lógica
-
-- Estruturas condicionais complexas e laços aninhados com propósito
-- Algoritmos de busca manual por ID em coleções — o que o `JPA` faz, feito à mão
-- Formatação de saída com `printf` e `String.format` — saídas dignas de sistemas reais
-
 ---
 
 ## 📂 Estrutura do Laboratório
