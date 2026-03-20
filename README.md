@@ -50,8 +50,6 @@ public class Filosofia {
 
 ---
 
-## 🧠 Pilares Técnicos
-
 ### 🔷 Orientação a Objetos de Verdade
 
 Não POO de tutorial. POO de sistema real.
