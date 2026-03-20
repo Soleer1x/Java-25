@@ -67,11 +67,17 @@ Não POO de tutorial. POO de sistema real.
 
 ```
 src/
-└── application/
-    ├── Program26.java   ──  Composição: entidade Autor contendo Livro
-    ├── Program27.java   ──  Listas dinâmicas + StringBuilder
-    ├── Program28.java   ──  Agregação, médias e tamanho de coleções
-    └── ...              ──  novos desafios sendo adicionados
+├── application/
+│   ├── Program26.java   
+│   ├── Program27.java   
+│   ├── Program28.java
+│   ├── ...
+└── entitys/
+    │  entitys/enums
+    │            └── enum.java
+    ├── entity1.java
+    ├── entity2.java
+    └── entity3.java
 ```
 
 > Cada `Program` é um problema de engenharia resolvido do zero. Sem scaffolding. Sem atalho.
