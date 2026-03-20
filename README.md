@@ -77,7 +77,8 @@ src/
     │  └── enum.java
     ├── entity1.java
     ├── entity2.java
-    └── entity3.java
+    ├── entity3.java
+    └── ...
 ```
 
 > Cada `Program` é um problema de engenharia resolvido do zero. Sem scaffolding. Sem atalho.
