@@ -1,4 +1,4 @@
 package application;
 
-public class aaaaa {
+public class teste {
 }
