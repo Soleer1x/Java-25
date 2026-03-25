@@ -114,7 +114,7 @@ javac src/application/Program26.java
 java -cp src application.Program26
 ```
 
-Ou abra direto no **IntelliJ IDEA** / **VS Code** com o plugin Java Extension Pack.
+Ou abra direto no **IntelliJ IDEA** / **Eclips** com o plugin Java Extension Pack.
 
 ---
 
