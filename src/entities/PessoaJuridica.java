@@ -15,4 +15,9 @@ public class PessoaJuridica extends Contribuinte{
     public void setNumeroFuncionarios(Integer numeroFuncionarios) {
         this.numeroFuncionarios = numeroFuncionarios;
     }
+
+    @Override
+    public Double slaoquevaiaqui() {
+        return 0.0;
+    }
 }
