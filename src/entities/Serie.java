@@ -33,6 +33,6 @@ public class Serie extends Conteudo {
 
     @Override
     public String descricao() {
-        return "\nSérie: \"" + getTitulo() + "\" (" + getAnoLancamento() + ") - " + getTemporadas() + " Temporadas (Total: " + (getTemporadas() * getEpisodiosPorTemporada()) + " episódios)";
+        return "Série: \"" + getTitulo() + "\" (" + getAnoLancamento() + ") - " + getTemporadas() + " Temporadas (Total: " + (getTemporadas() * getEpisodiosPorTemporada()) + " episódios)";
     }
 }
