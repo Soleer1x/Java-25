@@ -20,6 +20,7 @@ public class Program39 {
         String nome = leia.nextLine();
         System.out.print("Valor produto: ");
         double valor = leia.nextDouble();
+        leia.nextLine();
         System.out.print("Tipo de envio: ");
         String tipo = leia.nextLine();
         TipoEnvio tipoEnvio = TipoEnvio.valueOf(tipo);

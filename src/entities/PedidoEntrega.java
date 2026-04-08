@@ -16,6 +16,7 @@ public class PedidoEntrega {
         this.produto = produto;
         this.valorProduto = valorProduto;
         this.envio = envio;
+        this.dataCompra = LocalDate.now();
     }
 
     public String getProduto() {

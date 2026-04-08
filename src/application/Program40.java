@@ -24,13 +24,13 @@ public class Program40 {
         int anoLancamentoFilme = leia.nextInt();
         System.out.print("Duracao Minutos: ");
         int duracaoMinutosFilme = leia.nextInt();
+        leia.nextLine();
         Conteudo conteudo = new Filme(tituloFilme, anoLancamentoFilme, duracaoMinutosFilme);
         lista.add(conteudo);
 
         System.out.println();
         System.out.print("Titulo Serie: ");
         String tituloSerie = leia.nextLine();
-        leia.nextLine();
         System.out.print("Ano Lancamento Serie: ");
         int anoLancamentoSerie = leia.nextInt();
         System.out.print("Temporadas Serie: ");
