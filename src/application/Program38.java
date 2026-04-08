@@ -20,26 +20,26 @@ public class Program38 {
         System.out.print("Enter the number of tax payers: ");
         int n = leia.nextInt();
 
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             System.out.println();
             System.out.print("Tax payer #" + (i + 1) + " data: ");
             System.out.print("Individual or company (i/c)? ");
             char letra = leia.next().charAt(0);
+            leia.nextLine();
             System.out.print("Name: ");
             String name = leia.nextLine();
             System.out.print("Anual income: ");
             double anualIncome = leia.nextDouble();
 
-            if(letra == 'i'){
+            if (letra == 'i') {
                 System.out.print("Health expenditures: ");
                 double health = leia.nextDouble();
                 Contribuinte contribuinte = new PessoaFisica(name, anualIncome, health);
                 lista.add(contribuinte);
-            }
-            else {
+            } else {
                 System.out.print("Number of employees: ");
                 int employees = leia.nextInt();
-                Contribuinte contribuinte = new PessoaJuridica(name , anualIncome, employees);
+                Contribuinte contribuinte = new PessoaJuridica(name, anualIncome, employees);
                 lista.add(contribuinte);
             }
         }
