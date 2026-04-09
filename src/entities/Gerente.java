@@ -28,7 +28,7 @@ public class Gerente extends Funcionario{
         StringBuilder sb = new StringBuilder();
         sb.append("\nFuncionário: ")
                 .append(getNome())
-                .append("\n (Gerente)")
+                .append(" (Gerente)")
                 .append("\nNível: ")
                 .append(getNivel())
                 .append("\nSalário Base: R$ ")

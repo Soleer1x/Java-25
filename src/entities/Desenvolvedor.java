@@ -30,11 +30,10 @@ public class Desenvolvedor extends Funcionario {
     @Override
     public String toString(){
         StringBuilder sb = new StringBuilder();
-        sb.append("\n")
-                .append("\nFuncionário: ")
+        sb.append("\nFuncionário: ")
                 .append(getNome())
-                .append("\n (Desenvolvedor - ")
-                .append(linguagemPrincipal)
+                .append(" (Desenvolvedor - ")
+                .append(getLinguagemPrincipal())
                 .append(") ")
                 .append("\nNível: ")
                 .append(getNivel())
@@ -43,7 +42,8 @@ public class Desenvolvedor extends Funcionario {
                 .append("\nBônus: R$ ")
                 .append(String.format("%.2f", calcularBonus()))
                 .append("\nTOTAL A RECEBER: R$ ")
-                .append(getSalarioBase() + calcularBonus());
+                .append(getSalarioBase() + calcularBonus())
+                .append("\n-----------------------");
 
         return sb.toString();
     }

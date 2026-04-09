@@ -20,9 +20,11 @@ public class Program41 {
 
         System.out.print("Quantos Funcionário? ");
         int quantity = leia.nextInt();
+        leia.nextLine();
 
         for(int i = 0; i < quantity; i++) {
-            System.out.print("Nome Funcionário: ");
+            System.out.println();
+            System.out.print("Nome Funcionário #" + (i + 1) + ": ");
             String nome = leia.nextLine();
             System.out.print("Nível: ");
             String level = leia.nextLine();
@@ -32,6 +34,7 @@ public class Program41 {
 
             System.out.print("D para Dev, G para Gerente: ");
             char letra = leia.next().charAt(0);
+            leia.nextLine();
 
             if(letra == 'D'){
                 System.out.print("Linguagem principal: ");
@@ -41,16 +44,16 @@ public class Program41 {
             } else if (letra == 'G'){
                 System.out.print("Gratificação: ");
                 double gratificacao = leia.nextDouble();
+                leia.nextLine();
                 Funcionario funcionario = new Gerente(nome, nivel, salarioBase, gratificacao);
                 lista.add(funcionario);
             }
         }
 
-        System.out.println("--- FOLHA DE PAGAMENTO ---");
+        System.out.println();
+        System.out.print("--- FOLHA DE PAGAMENTO ---");
         for(Funcionario funcionario : lista){
             System.out.print(funcionario.toString());
-            System.out.println("\n-----------------------");
-            System.out.print("\n");
         }
 
     }
