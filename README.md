@@ -19,6 +19,7 @@
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![JDK 25](https://img.shields.io/badge/JDK_25-000000?style=for-the-badge&logo=openjdk&logoColor=ED8B00)](https://openjdk.org/)
+[![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)](https://www.jetbrains.com/idea/)
 [![POO](https://img.shields.io/badge/Paradigma-POO-1a1a2e?style=for-the-badge)](https://en.wikipedia.org/wiki/Object-oriented_programming)
 [![Status](https://img.shields.io/badge/Status-Em_Construção-brightgreen?style=for-the-badge)](#)
 
